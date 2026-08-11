@@ -18,3 +18,8 @@ int multiply_bitwise(int a, int b) {
     
     return sign ? -result : result;
 }
+
+int main() {
+    int result = multiply_bitwise(5, 7);
+    return 0;
+}

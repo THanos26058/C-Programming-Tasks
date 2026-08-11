@@ -24,3 +24,12 @@ int receive_frame(uint8_t *frame_in, uint8_t *data_out) {
     }
     return 0;
 }
+
+int main() {
+    uint8_t data[8] = {1, 2, 3, 4, 5, 6, 7, 8};
+    uint8_t frame[10];
+    uint8_t received_data[8];
+    send_frame(data, frame);
+    receive_frame(frame, received_data);
+    return 0;
+}

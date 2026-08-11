@@ -14,3 +14,9 @@ void count_zeros_ones(int num, int *zeros, int *ones) {
         }
     }
 }
+
+int main() {
+    int zeros, ones;
+    count_zeros_ones(5, &zeros, &ones);
+    return 0;
+}

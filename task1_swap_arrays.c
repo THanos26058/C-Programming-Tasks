@@ -9,3 +9,10 @@ void swap_arrays(int *arr1, int *arr2, size_t size) {
         arr2[i] = temp;
     }
 }
+
+int main() {
+    int arr1[] = {1, 2, 3};
+    int arr2[] = {4, 5, 6};
+    swap_arrays(arr1, arr2, 3);
+    return 0;
+}

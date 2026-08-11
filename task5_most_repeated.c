@@ -20,3 +20,9 @@ int most_repeated_element(int *arr, size_t size) {
     }
     return most_rep;
 }
+
+int main() {
+    int arr[] = {1, 2, 2, 3};
+    int most_rep = most_repeated_element(arr, 4);
+    return 0;
+}

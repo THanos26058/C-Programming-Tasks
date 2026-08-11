@@ -18,3 +18,9 @@ size_t remove_duplicates(int *arr, size_t size) {
     }
     return new_size;
 }
+
+int main() {
+    int arr[] = {1, 2, 2, 3};
+    size_t new_size = remove_duplicates(arr, 4);
+    return 0;
+}

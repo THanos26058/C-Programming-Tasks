@@ -17,3 +17,11 @@ void get_max_min(int *arr, size_t size, int *max_val, size_t *max_idx, int *min_
         }
     }
 }
+
+int main() {
+    int arr[] = {1, 5, 2, 8, 3};
+    int max_val, min_val;
+    size_t max_idx, min_idx;
+    get_max_min(arr, 5, &max_val, &max_idx, &min_val, &min_idx);
+    return 0;
+}

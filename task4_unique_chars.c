@@ -14,3 +14,10 @@ size_t copy_unique_chars(const char *src, size_t src_size, char *dest) {
     }
     return dest_idx;
 }
+
+int main() {
+    char src[] = "aabbcc";
+    char dest[10];
+    copy_unique_chars(src, 6, dest);
+    return 0;
+}

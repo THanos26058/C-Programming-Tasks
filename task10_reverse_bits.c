@@ -11,3 +11,8 @@ uint8_t reverse_bits(uint8_t num) {
     }
     return reversed;
 }
+
+int main() {
+    uint8_t reversed = reverse_bits(0xD2);
+    return 0;
+}

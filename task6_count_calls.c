@@ -6,3 +6,9 @@ int count_calls() {
     static int count = 0;
     return ++count;
 }
+
+int main() {
+    count_calls();
+    count_calls();
+    return 0;
+}
